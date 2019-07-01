@@ -1,0 +1,20 @@
+@import url(<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900&display=swap" rel="stylesheet">);
+	
+Body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	background: #000; 
+	}
+p{
+	font-size: 10px;
+	line-height: 10px;
+	background: url(spiderman.jpg);
+	background-attachment: fixed;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(255,255,255,0);
+	text-align: justify;
+ }
