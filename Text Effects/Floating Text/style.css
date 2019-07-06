@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap');
+
+	
+Body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Just Another Hand', cursive;
+	}
+
+ul{
+	margin: 0;
+	padding: 0;
+	font-size: 15em;
+	display: flex;
+	
+	
+}
+ul li{
+	list-style: none;
+	transition: 0.5s;
+	
+	
+}
+.dois{
+	transition: 2s;
+	
+}
+
+.um{
+	transition: none;
+	animation: animate 10s linear infinite;
+	
+}
+
+ul:hover li{
+	transform: rotate(360deg);
+}
+
+ul:hover li:last-child{
+	transition-delay: 0.5s;
+	
+} 
+
+ul  li span{
+	display: inline-block;
+	transition: 0.5s;
+	
+}
+
+ul:hover li:last-child span:nth-child(1){
+	transform: rotate(360deg) translateY(-25px);
+	transition-delay: 1s;
+	
+}
+
+ul:hover li:last-child span:nth-child(2){
+	transform: rotate(90deg) translateY(-15px);
+	transition-delay: 1.5s;
+	
+}
+
+
+ul:hover li:last-child span:nth-child(3){
+	transform: rotate(90deg) translateY(30px);
+	transition-delay: 1.5s;
+	
+}
+
+@keyframes animate
+{
+	0%{
+		transform: translateY(0px) rotate(-10deg);
+	}
+	25%{
+		transform: translateY(-100px) rotate(10deg);
+	}
+	50%{
+		transform: translateY(0px) rotate(-10deg);
+	}
+	75%{
+		transform: translateY(100px) rotate(10deg);
+	}
+	100%{
+		transform: translateY(0px) rotate(-10deg);
+	}
+}
