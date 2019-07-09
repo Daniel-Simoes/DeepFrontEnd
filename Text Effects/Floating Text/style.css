@@ -9,6 +9,7 @@ Body{
 	align-items: center;
 	height: 100vh;
 	font-family: 'Just Another Hand', cursive;
+	background: black;
 	}
 
 ul{
@@ -16,6 +17,7 @@ ul{
 	padding: 0;
 	font-size: 15em;
 	display: flex;
+	color: white;
 	
 	
 }
