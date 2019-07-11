@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap');
+
+	
+Body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: black;
+	}
+.slinky{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,50%);
+}
+
+.slinky h2{
+	position: absolute;
+	transform: translate(-50%,50%);
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 6em;
+	color: #fff;
+	-webkit-text-stroke: 2px #000;
+	animation: animate alternate 4s infinite;
+}
+.slinky h2:nth-child(1){
+	animation-delay: -0.04s;
+	
+	color: brown;
+}
+.slinky h2:nth-child(2){
+	animation-delay: -0.08s;
+	color: yellow;
+}
+.slinky h2:nth-child(3){
+	animation-delay: -0.12s;
+	color: green;
+}
+.slinky h2:nth-child(4){
+	animation-delay: -0.16s;
+	color: blue;
+}
+.slinky h2:nth-child(5){
+	animation-delay: -0.20s;
+	
+	color: darkslategray;
+}
+.slinky h2:nth-child(6){
+	animation-delay: -0.24s;
+	color: aqua;
+	
+}
+.slinky h2:nth-child(7){
+	animation-delay: -0.28s;
+	color: red;
+}
+.slinky h2:nth-child(8){
+	animation-delay: -0.32s;
+	color: grey;
+}
+.slinky h2:nth-child(9){
+	animation-delay: -0.36s;
+	color: violet;
+}
+.slinky h2:nth-child(10){
+	animation-delay: -0.40s;
+}
+@keyframes animate
+{
+	0%,100%
+	{
+		top: -150px;
+		left: -50px;
+	}
+	25%
+	{
+		left: 200px;
+	}
+	50%
+	{
+		top: 150px;
+		left: 50px;
+	}
+	75%
+	{
+		left: -200px;
+	}
+}
+
+
+
