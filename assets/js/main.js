@@ -83,6 +83,24 @@
 						.addClass('scrolly');
 
 			}
+		
+		// Get BG Image
+
+			if ( $( ".bg-img" ).length ) {
+
+				$( ".bg-img" ).each(function() {
+
+					var post 	= $(this),
+						bg 		= post.data('bg');
+
+					post.css( 'background-image', 'url(images/' + bg + ')' );
+
+				});
+
+
+			}
+		
+		
 
 		// Scrolly.
 			$('.scrolly').scrolly();
