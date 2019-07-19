@@ -9,7 +9,7 @@ Body{
 
 h1{
 	position: absolute;
-	top: 50%;
+	top: 35%;
 	left: 50%; 
 	transform: translate(-50%, -50%);
 	text-transform: uppercase;
@@ -18,7 +18,7 @@ h1{
 	margin: 0;
 	padding: 0;
 	color: transparent;
-	font-size: 200px;
+	font-size: 70px;
 }
  
 
@@ -32,7 +32,7 @@ h1:before {
 	color: white;
 	overflow: hidden;
 	border-right: 1px solid white;
-	animation: type 11s steps(300) infinite;
+	animation: type 11s steps(3000) infinite;
 	white-space: nowrap;
 }
 
