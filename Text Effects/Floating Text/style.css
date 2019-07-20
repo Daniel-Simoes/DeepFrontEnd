@@ -8,14 +8,14 @@ Body{
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	font-family: 'Just Another Hand', cursive;
+	font-family: monospace;
 	background: black;
 	}
 
 ul{
 	margin: 0;
 	padding: 0;
-	font-size: 15em;
+	font-size: 10em;
 	display: flex;
 	color: white;
 	
